@@ -13,6 +13,81 @@
     />
   </head>
   <body>
+    <!-- Navbar Section -->
+    <header
+      class="bg-gradient-to-b from-lime-100 to-lime-50 absolute top-0 left-0 w-full items-center z-10"
+    >
+      <div class="px-2 md:px-6 flex items-center justify-between relative">
+        <div class="px-4">
+          <a
+            href="#"
+            class="font-bold text-xl text-green-400 block py-6 font-sarina"
+            >Space</a
+          >
+        </div>
+        <div class="lg:mx-2 flex items-center px-4">
+          <button
+            id="hamburger"
+            name="hamburger"
+            type="button"
+            class="block absolute right-4 md:hidden"
+          >
+            <span
+              class="origin-top-left transition duration-500 hamburger-line"
+            ></span>
+            <span class="transition duration-500 hamburger-line"></span>
+            <span
+              class="origin-bottom-left transition duration-500 hamburger-line"
+            ></span>
+          </button>
+          <nav
+            id="nav-menu"
+            class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full md:block md:static md:bg-transparent md:max-w-full md:shadow-none md:rounded-none"
+          >
+            <ul class="block md:flex">
+              <li class="group">
+                <a
+                  href="#"
+                  class="sm:text-[0.8rem] lg:text-base font-bold text-slate-400 font-roboto py-2 mx-8 flex group-hover:text-green-300"
+                  >Home</a
+                >
+              </li>
+              <li class="group">
+                <a
+                  href="#"
+                  class="sm:text-[0.8rem] lg:text-base font-bold text-slate-400 font-roboto py-2 mx-8 flex group-hover:text-green-300"
+                  >Templates</a
+                >
+              </li>
+              <li class="group">
+                <a
+                  href="#"
+                  class="sm:text-[0.8rem] lg:text-base font-bold text-slate-400 font-roboto py-2 mx-8 flex group-hover:text-green-300"
+                  >Price</a
+                >
+              </li>
+              <li class="group">
+                <a
+                  href="#"
+                  class="sm:text-[0.8rem] lg:text-base font-bold text-slate-400 font-roboto py-2 mx-8 flex group-hover:text-green-300"
+                  >Help</a
+                >
+              </li>
+              <li
+                class="group border border-green-400 rounded-md hover:bg-green-500 md:ml-2 lg:ml-7"
+              >
+                <a
+                  href="#"
+                  class="sm:text-[0.7rem] min-[770px]:text-[0.8rem] lg:text-base font-semibold text-green-500 py-2 mx-8 flex group-hover:text-white"
+                  >Get In Touch</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    
     <!-- Hero Section -->
     <div
       class="bg-gradient-to-b from-lime-50 to-white container -mt-2 py-20 max-w-full md:flex lg:mt-0"
